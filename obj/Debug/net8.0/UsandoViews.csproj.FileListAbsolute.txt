@@ -365,3 +365,4 @@ c:\Users\gpere\OneDrive\Área de Trabalho\csharpinho\UsandoViews\obj\Debug\net8.
 c:\Users\gpere\OneDrive\Área de Trabalho\csharpinho\UsandoViews\obj\Debug\net8.0\ref\UsandoViews.dll
 c:\Users\gpere\OneDrive\Área de Trabalho\csharpinho\UsandoViews\bin\Debug\net8.0\libman.json
 c:\Users\gpere\OneDrive\Área de Trabalho\csharpinho\UsandoViews\bin\Debug\net8.0\UsandoViews.staticwebassets.runtime.json
+C:\Users\gpere\OneDrive\Área de Trabalho\csharpinho\UsandoViews\obj\Debug\net8.0\UsandoViews.sourcelink.json

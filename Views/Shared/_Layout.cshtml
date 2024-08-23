@@ -1,5 +1,3 @@
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-
 @{
   var actionAtual = ViewContext.RouteData.Values["action"].ToString();
 }
@@ -10,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/lib/bootstrap5/dist/css/bootstrap.css">
-  <title>Página Principal</title>
+  <title>Usando Views - @ViewBag.Title</title>
 </head>
 
 <body>
