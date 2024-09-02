@@ -1,3 +1,4 @@
+
 namespace UsandoViews.Models
 {
   public class Usuario
@@ -10,47 +11,49 @@ namespace UsandoViews.Models
 
     public static IQueryable<Usuario> Listagem
     {
-      get { return listagem.AsQueryable();}
+      get { return listagem.AsQueryable(); }
     }
 
     static Usuario()
     {
       Usuario.listagem.Add(
-        new Usuario {Id = 1, Nome = "Fulano", Email = "fulano@email.com"});
+        new Usuario { Id = 1, Nome = "Fulano", Email = "fulano@email.com" });
       Usuario.listagem.Add(
-        new Usuario {Id = 2, Nome = "Sicrano", Email = "Sicrano@email.com"});
+        new Usuario { Id = 2, Nome = "Sicrano", Email = "Sicrano@email.com" });
       Usuario.listagem.Add(
-        new Usuario {Id = 3, Nome = "Beltrano", Email = "beltrano@email.com"});
+        new Usuario { Id = 3, Nome = "Beltrano", Email = "beltrano@email.com" });
       Usuario.listagem.Add(
-        new Usuario {Id = 4, Nome = "Maria", Email = "maria@email.com"});
+        new Usuario { Id = 4, Nome = "Maria", Email = "maria@email.com" });
     }
 
     public static void Salvar(Usuario usuario)
     {
       var usuarioExistente = listagem.Find(u => u.Id == usuario.Id);
-      if(usuarioExistente != null)
+      if (usuarioExistente != null)
       {
-          usuarioExistente.Nome = usuario.Nome;
-          usuarioExistente.Email = usuario.Email;
+        usuarioExistente.Nome = usuario.Nome;
+        usuarioExistente.Email = usuario.Email;
       }
       else
       {
-          int maiorId = 0;
-          if(Usuario.Listagem.Count() > 0)
-          {
-            maiorId = Usuario.Listagem.Max(u => u.Id);
-            usuario.Id = maiorId + 1;
-          }
+        int maiorId = 0;
+        if (Usuario.Listagem.Count() > 0)
+        {
+          maiorId = Usuario.Listagem.Max(u => u.Id);
+          usuario.Id = maiorId + 1;
+          Usuario.listagem.Add(usuario);
+        }
       }
     }
 
-    public static void Excluir(Usuario usuario)
+    public static bool Excluir(Usuario usuario)
     {
       var usuarioExistente = listagem.Find(u => u.Id == usuario.Id);
-      if(usuarioExistente != null)
+      if (usuarioExistente != null)
       {
-          Usuario.listagem.Remove(usuarioExistente);
+        return Usuario.listagem.Remove(usuarioExistente);
       }
+      return false;
     }
   }
 }

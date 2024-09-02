@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "70wk9f6lYhOAq+ABk7Sbir9xxm2BPS18UlH6tvmHbdYbMvVmPLcV5ZngmxdbFwIB3OpWV7glpNt53imrlKsaOA==",
+  "dgSpecHash": "d9oQhPlK5F6s5ZM9B/pEc1fTN84gVaKhLePo2W4XyJcaqNWWetOHOb+w1y9rsOEqJNSDc/b/n4GqL/VmoNS8RQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\UsandoViews.csproj",
+  "projectFilePath": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\UsandoViews.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gpere\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\gpere\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.6\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.6.nupkg.sha512",

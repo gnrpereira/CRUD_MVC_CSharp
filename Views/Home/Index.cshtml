@@ -1,8 +1,15 @@
+
 @{
-  ViewBag.Title = "Inicio";
+  ViewBag.Title = "Página Principal";
 }
 
 <h1 class="text-primary">CRUD com ASP.NET Core</h1>
 <hr>
+<h3 class="text-info">Usuários Cadastrados: @ViewBag.QtdeUsuarios</h3>
+<hr>
 <a href="/Home/Usuarios" class="btn btn-primary">Usuários</a>
 </div>
+
+@section Footer {
+  <span class="text-info">Página Principal</span>
+}

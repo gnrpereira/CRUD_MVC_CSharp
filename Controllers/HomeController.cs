@@ -8,6 +8,8 @@ namespace UsandoViews.Controllers
   {
     public IActionResult Index()
     {
+
+      ViewBag.QtdeUsuarios = Usuario.Listagem.Count();
       return View();
     }
 
@@ -43,7 +45,7 @@ namespace UsandoViews.Controllers
     [HttpPost]
     public IActionResult Excluir(Usuario usuario)
     {
-      Usuario.Excluir(usuario);
+      TempData["Excluiu"] = Usuario.Excluir(usuario);
       return RedirectToAction("Usuarios");
     }
 
