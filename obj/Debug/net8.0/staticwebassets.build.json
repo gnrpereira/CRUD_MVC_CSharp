@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KWrtdPA4YpQQCJgfj6Bd36gXBiffVLQM24NDYrY0lu8=",
+  "Hash": "OSX3qydpBJOfjCkw1GO4dCeA6HrQhJaDXrcEonJf9I0=",
   "Source": "UsandoViews",
   "BasePath": "_content/UsandoViews",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\img\\pagina.png",
+      "SourceId": "UsandoViews",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\",
+      "BasePath": "_content/UsandoViews",
+      "RelativePath": "img/pagina.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pagina.png"
+    },
+    {
+      "Identity": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\img\\pagina02.png",
+      "SourceId": "UsandoViews",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\",
+      "BasePath": "_content/UsandoViews",
+      "RelativePath": "img/pagina02.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pagina02.png"
+    },
     {
       "Identity": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\lib\\bootstrap5\\dist\\css\\bootstrap-grid.css",
       "SourceId": "UsandoViews",

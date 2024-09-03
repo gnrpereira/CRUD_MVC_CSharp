@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\img\\pagina.png",
+      "PackagePath": "staticwebassets\\img\\pagina.png"
+    },
+    {
+      "Id": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\img\\pagina02.png",
+      "PackagePath": "staticwebassets\\img\\pagina02.png"
+    },
+    {
       "Id": "c:\\Users\\gpere\\OneDrive\\Área de Trabalho\\csharpinho\\UsandoViews\\wwwroot\\lib\\bootstrap5\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap5"
     },
